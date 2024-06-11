@@ -1,0 +1,19 @@
+# Ignore raw data
+data/dcm/
+data/nifti/
+
+# Ignore virtual environment
+venv/
+
+# Ignore Jupyter notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore model checkpoints
+models/
+
+# Ignore results
+results/
