@@ -1,8 +1,8 @@
 import dicom2nifti
 import os
 
-dcm_path = 'data/dcm/'  # Update with your actual path
-temp_CT_dir = 'data/nifti/'  # Update with your actual path
+dcm_path = 'data/dcm/'  # Path where the DICOM files are located
+temp_CT_dir = 'data/nifti/'  # Path where you want to store the NIFTI files
 
 if not os.path.exists(temp_CT_dir):
     os.makedirs(temp_CT_dir)

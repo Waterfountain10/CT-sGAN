@@ -1,0 +1,5 @@
+pydicom
+dicom2nifti
+tensorflow
+torch
+matplotlib
