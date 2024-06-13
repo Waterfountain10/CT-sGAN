@@ -17,3 +17,14 @@ models/
 
 # Ignore results
 results/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files created by IDEs
+.vscode/
+.idea/

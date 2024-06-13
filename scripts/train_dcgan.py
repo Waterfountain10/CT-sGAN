@@ -23,7 +23,7 @@ generator_optimizer = tf.keras.optimizers.Adam(1e-4)
 discriminator_optimizer = tf.keras.optimizers.Adam(1e-4)
 
 # Training step
-@tf.function
+# @tf.function
 def train_step(images):
     noise = tf.random.normal([BATCH_SIZE, noise_dim])
 
